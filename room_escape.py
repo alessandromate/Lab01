@@ -1,8 +1,6 @@
 from random import randint
 
 def stampa_griglia(n, pos, uscita):
-    """Stampa la griglia con G = giocatore, U = uscita, . = spazio vuoto"""
-    # TODO
     for r in range(0,n):
         for c in range(0,n):
             if r == pos[0] and c == pos[1]:
